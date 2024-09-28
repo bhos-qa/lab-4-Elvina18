@@ -14,7 +14,7 @@ public class App {
 
     // 3. Calculate discount based on amount
     public double calculateDiscount(double amount) {
-        if (amount > 100) {
+        if (amount >= 100) {
             return amount * 0.10;  // 10% discount
         }
         return 0;
